@@ -1,0 +1,7 @@
+Event
+In-Class Activity
+
+1. Find two new examples of event handlers that you haven’t heard of before. What are they called and what do they do?
+2. What are three different methods to have JavaScript work with events?
+3. Create a page with a button that when clicked, will change the background color to a randomly selected color. 
+4. Create a function in JS to assign and use the onmouseover event handler for an image. When you mouse over this image, make a description appear next to it. 

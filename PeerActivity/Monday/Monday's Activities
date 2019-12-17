@@ -1,0 +1,42 @@
+Arrays In-Class Activity
+
+1. What types of data can be stored in an array?
+
+2. What is an associative array?
+
+3. What is a multidimensional array?
+
+4. Code Activity-1
+Create two arrays.  Name the first array ‘odd’ have it contain only the old numbers from 1 to 10.  Name the second array ‘even’ have it contain only the even numbers from 1 to 10.
+Combine the two arrays ( odd & even) into a new array named ‘allNums’
+Use an alert and pull out the number 9.  Use an alert to pull out the number 4.
+
+5. Code Activity-2
+Starting from scratch, write code that loops through the following array and logs the name of each animal on the farm to the console:
+ var myFarm = ["chickens", "pigs", "cows", "horses","ostriches"];
+      b.  Then check if the first letter in the animal's name begins with a "c" or "o".
+If it does, create an alert saying, "Starts with 'c' or 'o'!"
+
+    	 	HINT: You can access the first character of a string as if it were the first element 
+of an array.
+
+6. Code Activity-3
+Given the array below write code to join all elements of the array into a string
+ var rvColors = ["red", "black", "grey", "white"];
+
+
+
+Arrays Required Review Resources
+Code Along
+- Udemy:  The Complete JavaScript Course 2019
+	Section 2 JavaScript Basics - 22. Arrays
+	https://redventures.udemy.com/the-complete-javascript-course/learn/lecture/5869108#overview  
+- Youtube - Mosh Arrays
+	https://youtu.be/oigfaZ5ApsM
+- Youtube - Mosh Array Map
+	https://youtu.be/G3BS3sh3D8Q
+- Array Cardio Video (Day 1 & Day 2)
+	https://youtu.be/HB1ZC7czKRs
+	https://javascript30.com/  (you need to provide email to gain access)
+- Travesery Media - Higher Order Functions & Arrays
+	https://youtu.be/rRgD1yVwIvE

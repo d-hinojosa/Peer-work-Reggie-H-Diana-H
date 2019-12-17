@@ -1,0 +1,23 @@
+
+1. What types of data can be stored in an array?
+-Boolean
+-Null
+-Undefined
+-Number
+-BigInt
+-String
+-Symbol
+-Object
+
+
+2. What is an associative array?
+-An associative array is simply a set of key value pairs.
+The value is stored in association with its key and if you
+provide the key the array will return the value. 
+This is all an associative array is and the name comes from 
+the association between the key and the value.
+
+
+3. What is a multidimensional array?
+-A JavaScript multidimensional array is an array of arrays, or,
+ in other words, an array whose elements consist of arrays.

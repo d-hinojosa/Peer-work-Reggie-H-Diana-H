@@ -1,0 +1,13 @@
+/* .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+} */
+
+.flex-container img {
+    float: left
+}
+
+.flex-container p {
+    float: right
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Peer Tuesday</title>
+</head>
+
+<body>
+    <script>
+        // 1. When is a function considered to be a callback function?
+        //Answer: When it takes a function as an arguement.
+
+        // 2. Write a JavaScript function that reverses a number.
+        function number(c) {
+            c = c + "";
+            return c.split("").reverse().join("")
+        }
+        console.log(number(8721))
+        alert(number(8721))
+
+        // 3. Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string
+
+
+        function getVowels(str) {
+            var vowelsCount = 0;
+
+            // //turn the input into a string
+            var string = str.toString();
+
+            //loop through the string
+            for (var i = 0; i <= string.length - 1; i++) {
+
+                //if a vowel, add to vowel count
+                if (string.charAt(i) == "a" || string.charAt(i) == "e" || string.charAt(i) == "i" || string.charAt(i) == "o" || string.charAt(i) == "u") {
+                    vowelsCount += 1;
+                }
+            }
+            return vowelsCount;
+        }
+        console.log(getVowels("Reginald"));
+
+
+        // 4. Write a function that checks whether a passed string is a palindrome or not?
+        // Note: A palindrome is word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.
+
+        function palindrome(str) {
+            var re = /[^A-Za-z0-9]/g;
+            str = str.toLowerCase().replace(re, '');
+            var len = str.length;
+            for (var i = 0; i < len / 2; i++) {
+                if (str[i] !== str[len - 1 - i]) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        palindrome("A man, a plan, a canal. Panama");
+        console.log(palindrome("A man, a plan, a canal. Panama"));
+
+
+
+
+
+        // 5. If we execute this JavaScript, what will the browser’s console show?
+        // Answer: Undefined
+        var text = 'outside';
+
+        function logIt() {
+            console.log(text);
+            var text = 'inside';
+        };
+        logIt();
+
+        // 6. Given the following functions, will they return the same thing?  Why or Why not?
+        // Answer: yes, b/c inside both function they are returning the same thing.
+
+        function fool() {
+            return {
+                bar: "hello"
+            };
+        }
+
+        function foo2() {
+            return {
+                bar: "hello"
+            };
+        }
+        console.log(fool());
+        console.log(foo2())
+    </script>
+</body>
+
+</html>

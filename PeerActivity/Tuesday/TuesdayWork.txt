@@ -1,0 +1,37 @@
+Functions, Scope & Callbacks
+In-Class Activity
+
+1. When is a function considered to be a callback function?
+2. Write a JavaScript function that reverses a number.
+3. Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string
+4. Write a function that checks whether a passed string is a palindrome or not?
+Note:  A palindrome is a word, phrase or sequence that reads the same backward as forward e.g. madam.
+5. If we execute this JavaScript, what will the browser’s console show?
+
+6. Given the following functions, will they return the same thing?  Why or Why not?
+
+
+
+
+
+
+
+Functions, Scope & Callbacks
+Mandatory Review Resources
+
+Youtube Callbacks
+https://youtu.be/xHneyv38Jro
+
+Scope (reading)
+https://www.geeksforgeeks.org/understanding-variable-scopes-in-javascript/
+
+Youtube functions
+https://youtu.be/hTU1OSbnov8
+
+Youtube Promises
+https://youtu.be/2d7s3spWAzo
+
+The Complete JavaScript Course 2019 
+Video 22. Function Statement and Expression
+Video 122. The Old Way: Asynchronous JavaScript with Callbacks
+Video 107. Arrow Functions Basics
